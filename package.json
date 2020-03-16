@@ -1,0 +1,31 @@
+{
+  "name": "react-schemaorg-ssr-xss-poc",
+  "version": "1.0.0",
+  "description": "Simple proof-of-concept to show a possible XSS vulnerability in the react-schemaorg npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DeX3/react-schemaorg-ssr-xss-poc.git"
+  },
+  "author": "Roman Decker <roman.decker@zooplus.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeX3/react-schemaorg-ssr-xss-poc/issues"
+  },
+  "homepage": "https://github.com/DeX3/react-schemaorg-ssr-xss-poc#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-schemaorg": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-react": "^7.8.3"
+  }
+}
